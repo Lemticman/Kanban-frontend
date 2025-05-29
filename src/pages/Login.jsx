@@ -7,6 +7,10 @@ function Login() {
   const [password, setPassword] = useState('')
   const navigate = useNavigate()
 
+<p className="mt-4 text-sm">
+  Don't have an account? <a href="/register" className="text-blue-500 underline">Register here</a>
+</p>
+
   const handleLogin = async () => {
     try {
       await axios.post('https://kanban-backend.up.railway.app/login', { email, password }, { withCredentials: true })
