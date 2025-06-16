@@ -13,7 +13,9 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.0",
     "@tanstack/react-query": "^5.32.0",
-    "dnd-kit": "^7.0.0"
+    "@dnd-kit/core": "^7.0.2",
+    "@dnd-kit/sortable": "^7.0.2",
+    "@dnd-kit/modifiers": "^7.0.2"
   },
   "devDependencies": {
     "@types/react": "^18.3.0",
